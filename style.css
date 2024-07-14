@@ -4,6 +4,8 @@
   --clr-primary: 229 23% 23%;
   --clr-secondary: 227 10% 46%;
   --clr-gray: 0 0% 59%;
+
+  --clr-black: 0 0% 0%;
   --clr-white: 0 0% 100%;
 
   /* FONT FAMILY */
@@ -13,6 +15,8 @@
   --fw-regular: 400;
   --fw-bold: 700;
 }
+
+/* RESET */
 
 *,
 *::before,
@@ -29,7 +33,6 @@ body {
   min-height: 100vh;
   font-family: var(--ff-kumbh-sans);
   font-weight: var(--fw-regular);
-  font-size: 1.125rem;
   padding: 1.5rem;
   background: hsl(var(--clr-bg));
   color: hsl(var(--clr-secondary));
@@ -48,6 +51,7 @@ h1,
 h2 {
   font-weight: var(--fw-bold);
   color: hsl(var(--clr-primary));
+  font-size: 1.125rem;
 }
 
 img {
