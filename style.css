@@ -63,3 +63,13 @@ ul {
   list-style: none;
   padding: 0;
 }
+
+/* PROFILE CARD */
+
+.profile-card {
+  background: hsl(var(--clr-white));
+  border-radius: 0.875rem;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 0.5rem 2rem 1rem hsl(var(--clr-black) / 10%);
+}
