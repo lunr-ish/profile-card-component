@@ -13,3 +13,49 @@
   --fw-regular: 400;
   --fw-bold: 700;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: var(--ff-kumbh-sans);
+  font-weight: var(--fw-regular);
+  font-size: 1.125rem;
+  padding: 1.5rem;
+  background: hsl(var(--clr-bg));
+  color: hsl(var(--clr-secondary));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p,
+h1,
+h2 {
+  overflow-wrap: break-word;
+}
+
+h1,
+h2 {
+  font-weight: var(--fw-bold);
+  color: hsl(var(--clr-primary));
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
