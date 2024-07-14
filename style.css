@@ -1,0 +1,15 @@
+:root {
+  /* COLOR */
+  --clr-bg: 185 75% 39%;
+  --clr-primary: 229 23% 23%;
+  --clr-secondary: 227 10% 46%;
+  --clr-gray: 0 0% 59%;
+  --clr-white: 0 0% 100%;
+
+  /* FONT FAMILY */
+  --ff-kumbh-sans: "Kumbh Sans", sans-serif;
+
+  /* FONT WEIGHT */
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
