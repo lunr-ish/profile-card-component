@@ -47,13 +47,6 @@ h2 {
   overflow-wrap: break-word;
 }
 
-h1,
-h2 {
-  font-weight: var(--fw-bold);
-  color: hsl(var(--clr-primary));
-  font-size: 1.125rem;
-}
-
 img {
   display: block;
   max-width: 100%;
@@ -111,6 +104,13 @@ hr {
   gap: 0.5625rem;
 }
 
+.profile-card__user-name,
+.profile-card__stats-value {
+  font-size: 1.125rem;
+  font-weight: var(--fw-bold);
+  color: hsl(var(--clr-primary));
+}
+
 .profile-card__user-age {
   font-size: 1.125rem;
 }
@@ -118,4 +118,26 @@ hr {
 .profile-card__user-location {
   margin-block: 0.5625rem 1.5625rem;
   font-size: 0.875rem;
+}
+
+/* CARD FOOTER */
+
+.profile-card__stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.8rem;
+  padding: 24px;
+}
+
+.profile-card__stats > * {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0.3125rem;
+}
+
+.profile-card__stats-title {
+  font-size: 0.625rem;
+  font-weight: var(--fw-regular);
+  letter-spacing: 0.1rem;
 }
